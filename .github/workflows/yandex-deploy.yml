@@ -62,6 +62,7 @@ jobs:
               for dir in */; do
                 [ -d "$dir" ] || continue
                 dir="${dir%/}"
+                [[ "$dir" == .* ]] && continue
                 echo "Copying directory: $dir"
                 cp -r "$dir" "temp/"
               done
@@ -85,6 +86,8 @@ jobs:
                 if [ -f "$file" ]; then
                   # Определяем директорию первого уровня
                   TOP_DIR=$(echo "$file" | cut -d'/' -f1)
+                  # Skip hidden directories
+                  [[ "$TOP_DIR" == .* ]] && continue
                   # Check if directory is in allowed list
                   if [[ -z "$ALLOWED_DIRS_CSV" || ",$ALLOWED_DIRS_CSV," == *",$TOP_DIR,"* ]]; then
                       echo "Copying changed file: $file"
