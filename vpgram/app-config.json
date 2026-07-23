@@ -1,5 +1,6 @@
 {
     "api_base_url": "https://web-api.vpgram.click",
+    "api_base_url_vless": "https://vpg.colgonet.top"
     "anonymous_key_relative_path": "client-api/v1/download-anonymous-key"
 }
 
