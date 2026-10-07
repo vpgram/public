@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "product": "vpgram",
+  "architecture": "x64",
+  "version": "6.10.0",
+  "version_code": 6010000,
+  "url": "https://storage.uubb.website/vpgram-setup-x64-6.10.0-qa-B-version-fixed-20261006.exe",
+  "sha256": "0f1802b1bee30e11ec7b153b9e5807efa986cd7d0c97483101cd3a2a650a9645",
+  "size": 70832120
+}
