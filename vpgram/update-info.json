@@ -1,7 +1,8 @@
 {
-    "version": "12.4.20",
-    "version_code": 6530,
-    "file_url": "https://storage.uubb.website/vpgram-v12.4.20.apk",
-    "changelog": "Исправили ошибки и усилили безопасность.",
+    "version": "12.6.1",
+    "version_code": 6550,
+    "file_url": "https://l.vpnn.io/vgram",
+    "changelog": "Критическое обновление: мы перешли на новую версию протокола защиты соединения. Старые версии приложения скоро перестанут подключаться к VPN — обновитесь, чтобы не потерять       
+  доступ.",
     "is_required": true
 }
